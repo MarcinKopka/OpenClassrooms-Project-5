@@ -1,0 +1,116 @@
+/* FONT FACE */
+
+/* H1 HEADER FONT */
+@font-face {
+    font-family: 'archivo_blackregular';
+    src: url('../fonts/archivoblack/archivoblack-webfont.eot');
+    src: url('../fonts/archivoblack/archivoblack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/archivoblack/archivoblack-webfont.woff2') format('woff2'),
+         url('../fonts/archivoblack/archivoblack-webfont.woff') format('woff'),
+         url('../fonts/archivoblack/archivoblack-webfont.ttf') format('truetype'),
+         url('../fonts/archivoblack/archivoblack-webfont.svg#archivo_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* H2 HEADER FONT */
+@font-face {
+    font-family: 'concert_oneregular';
+    src: url('../fonts/concertone/concertconcertone-regular-webfont.eot');
+    src: url('../fonts/concertone/concertone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/concertone/concertone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/concertone/concertone-regular-webfont.woff') format('woff'),
+         url('../fonts/concertone/concertone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/concertone/concertone-regular-webfont.svg#concert_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* PAGE FONT */
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato/lato-regular-webfont.eot');
+    src: url('../fonts/lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/lato/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lato/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-image: url("../img/rockywall.png");
+	font-family: 'latoregular', Arial, serif;
+	font-size: 1.3em;
+}
+
+#page-wrapper {
+	background-image: url("../img/purty_wood.png");
+	border: 3px solid rgba(255,255,255,1);
+	border-radius: 20px;
+	-webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.5);
+	box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.5);
+}
+
+h1 {
+	background-image: url("../img/rockywall.png");
+	font-family: 'archivo_blackregular', Arial, serif;
+	color: rgba(0,0,160,1);
+	text-shadow: 5px 5px 7px rgba(0,0,0,0.4);
+	border: 3px solid rgba(255,255,255,1);
+	border-radius: 25px;
+	-webkit-box-shadow: inset 10px 10px 10px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 10px 10px 10px 0px rgba(0,0,0,0.5);
+	box-shadow: inset 10px 10px 10px 0px rgba(0,0,0,0.5);
+}
+
+#sections_wrapper {
+	border: 3px solid rgba(255,255,255,1);
+	border-radius: 25px;
+	background-image: url("../img/rockywall.png");
+	-webkit-box-shadow: inset 10px 10px 10px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 10px 10px 10px 0px rgba(0,0,0,0.5);
+	box-shadow: inset 10px 10px 10px 0px rgba(0,0,0,0.5);
+}
+
+section header h2 {
+	background-image: url("../img/purty_wood.png");
+	border: 3px solid rgba(255,255,255,1);
+	border-radius: 20px;
+	-webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.5);
+	box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.5)
+}
+
+h2 {
+	font-family: 'concert_oneregular', Arial, serif;
+}
+
+.deep-bg {
+	border: 3px solid rgba(255,255,255,1);
+	border-radius: 25px;
+	background-color: rgba(242,242,242,1);
+	-webkit-box-shadow: inset 10px 10px 10px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 10px 10px 10px 0px rgba(0,0,0,0.5);
+	box-shadow: inset 10px 10px 10px 0px rgba(0,0,0,0.5);
+}
+
+.noqb, .loqb, .toqb, .gb, .eb {
+	border: 2px solid rgba(255,255,255,1);
+	border-radius: 50px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline:none;
+    box-shadow:none;
+}
+
+#loq button {
+	width: 24%;
+}
+
+#toq button {
+	width: 45%;
+}
